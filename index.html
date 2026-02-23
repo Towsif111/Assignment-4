@@ -33,6 +33,35 @@
           </div>
         </section>
 
-        
+        <div class="mt-[50px] border border-[#e6e7e9]"></div>
+      </div>
+    </header>
+
+       <main>
+      <div class="mx-auto w-[1000px] pb-10">
+        <section class="bg-white  rounded-xl shadow-sm p-4 sm:p-5">
+          <div class="flex items-baseline justify-between gap-3">
+            <h2 class="text-lg font-extrabold">Available Jobs</h2>
+            <p class="text-sm text-slate-500">
+              <span id="tabCount">0</span> jobs
+            </p>
+          </div>
+
+          <div class="mt-4 flex flex-wrap gap-3 p-1 rounded-xl">
+            <button id="all-filter-btn" class="btn btn-outline btn-primary px-4 py-2 rounded-lg text-xs font-medium" type="button">All</button>
+
+            <button id="interview-filter-btn" class="btn btn-soft btn-primary px-4 py-2 rounded-lg text-xs font-medium" type="button">Interview</button>
+
+            <button id="rejected-filter-btn" class="btn btn-soft btn-primary px-4 py-2  rounded-lg text-xs font-medium" type="button">Rejected</button>
+
+          </div>
+
+          <div id="allCards" class="mt-5 grid gap-5"></div>
+
+          <div id="filtered-section" class="mt-5  hidden"></div>
+        </section>
+      </div>
+    </main>
+    
   </body>
 </html>
